@@ -16,9 +16,9 @@ You can remove 3 from the array to get the strictly increasing sequence [1, 2]. 
 
 # Input/Output
 
-[execution time limit] 4 seconds (js)
+* [execution time limit] 4 seconds (js)
 
-[input] array.integer sequence
+* [input] array.integer sequence
 
 Guaranteed constraints:
 2 ≤ sequence.length ≤ 105,
@@ -26,4 +26,4 @@ Guaranteed constraints:
 
 [output] boolean
 
-Return true if it is possible to remove one element from the array in order to get a strictly increasing sequence, otherwise return false.
+* Return true if it is possible to remove one element from the array in order to get a strictly increasing sequence, otherwise return false.
