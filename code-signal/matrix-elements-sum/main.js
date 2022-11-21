@@ -1,13 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 function matrixElementsSum(matrix) {
-  let s = 0;
-  for (var i = 0; i < matrix.length; i++) {
-    for (var j = 0; j <= matrix.length; j++) {
-      if (matrix[i][j] === 0) {
-        matrix[i + 1][j] = 0;
-      }
-      s += matrix[i][j];
+  let sum = 0;
+
+  for (let i = 0; i < matrix[0].length; i++) {
+    for (let j = 0; j < matrix.length; j++) {
+      if (matrix[j][i] === 0) break;
+      sum += matrix[j][i];
     }
   }
-  return s;
+
+  return sum;
 }
