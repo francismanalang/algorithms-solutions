@@ -1,7 +1,8 @@
 function solution(s1, s2) {
   const freqCounter1 = {};
   const freqCounter2 = {};
-  // var output = 0;
+  // eslint-disable-next-line no-unused-vars
+  var output = 0;
   for (var i = 0; i < s1.length; i++) {
     const letter = s1[i];
     if (freqCounter1[letter]) {
@@ -18,6 +19,9 @@ function solution(s1, s2) {
       freqCounter2[letter] = 1;
     }
   }
+  // const freq1Obect = Object.entries(freqCounter1);
+  // const freq2Obect = Object.entries(freqCounter2);
+  // console.log(freq1Obect, freq2Obect);
 }
 
 solution('aabcc', 'adcaa');
