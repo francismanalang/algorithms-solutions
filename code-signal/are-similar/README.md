@@ -2,7 +2,7 @@ Two arrays are called similar if one can be obtained from another by swapping at
 
 Given two arrays a and b, check whether they are similar.
 
-Example
+ * Example
 
 For a = [1, 2, 3] and b = [1, 2, 3], the output should be
 solution(a, b) = true.
@@ -19,7 +19,7 @@ solution(a, b) = false.
 
 Any swap of any two elements either in a or in b won't make a and b equal.
 
-Input/Output
+ * Input/Output
 
 [execution time limit] 4 seconds (js)
 
